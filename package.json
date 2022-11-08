@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "axios": "^1.1.3"
+  },
+  "name": "zeroxbob",
+  "keywords": ["ethereum", "smartcontract", "data", "tracking", "analytics", "alerts"],
+  "homepage": "https://github.com/zeitseeing/zeroxbob_package",
+  "bugs": "https://github.com/zeitseeing/zeroxbob_package/issues",
+  "version": "0.0.0",
+  "description": "Get email alerts about activity on your smart contract",
+  "main": "src/index.js",
+  "repository": {
+    "url": "https://github.com/zeitseeing/zeroxbob_package",
+    "type": "git"
+  },
+  "author": "zeroxbob <zeroxbob@protonmail.com>",
+  "license": "MIT",
+  "private": false
+}
