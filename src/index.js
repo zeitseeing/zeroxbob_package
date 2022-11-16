@@ -4,11 +4,12 @@ require('dotenv').config();
 const url = "https://zeroxbob.com/registrations";
 const email_address = process.env.EMAIL_ADDRESS
 
-async function registerContract(contract_address) {
+async function registerContract(contract_address, network) {
   await axios
     .post(url, {
       address: contract_address,
       email: email_address,
+      network: network,
     })
     .then(function (response) {
       console.log('zeroxbob.com success')
