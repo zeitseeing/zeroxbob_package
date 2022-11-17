@@ -20,7 +20,8 @@ EMAIL_ADDRESS=my_email@gmail.com
 ```js
 const zeroxbob = require("zeroxbob");
 
-zeroxbob.registerContract('0xd73d7042f67d2081bf3e709934c48422542ebe4a')
+zeroxbob.registerContract('0xd73d7042f67d2081bf3e709934c48422542ebe4a', 5)
+// 5 is the network id of Goerli. It can be hardcoded. While zeroxbob is in beta, it only supports the Goerli testnet.
 ```
 
 Check your email account for an email from zeroxbob.com and confirm your account. Your contract is now being monitored for events and you will receive an email if your contract emits an event or registers a transaction. 
