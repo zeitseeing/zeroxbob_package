@@ -14,7 +14,7 @@
   ],
   "homepage": "https://github.com/zeitseeing/zeroxbob_package",
   "bugs": "https://github.com/zeitseeing/zeroxbob_package/issues",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Get email alerts about activity on your smart contract",
   "main": "src/index.js",
   "repository": {
